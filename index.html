@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>محول العملات - دولار إلى شيكل</title>
+</head>
+
+<body>
+    <button class="theme-toggle" id="themeToggle" aria-label="تبديل الوضع" aria-pressed="false">
+        <span class="sun-icon">☀️</span>
+        <span class="moon-icon">🌙</span>
+    </button>
+
+    <div class="container">
+        <div class="currency-icon">💱</div>
+        <h1>محول العملات</h1>
+
+        <div class="input-group">
+            <label for="doller">الدولار الأمريكي ($)</label>
+            <input type="number" placeholder="أدخل المبلغ بالدولار" id="doller" step="0.01">
+        </div>
+
+        <div class="exchange-icon">⇅</div>
+
+        <div class="input-group">
+            <label for="shakel">الشيكل الإسرائيلي (₪)</label>
+            <input type="number" placeholder="أدخل المبلغ بالشيكل" id="shakel" step="0.01">
+        </div>
+
+        <div class="info-text">
+            سعر الصرف: 1 دولار = 3.5 شيكل
+        </div>
+    </div>
+    <script src="./main.js"></script>
+
+</body>
+
+</html>
